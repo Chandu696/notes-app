@@ -28,5 +28,6 @@ export const main = handler(async (event) => {
 //   --client-id 40spi4kh4ek39fv8mclnc28af6 \
 //   --username admin@example.com \
 //   --password Passw0rd!
-//
-//   npx aws-api-gateway-cli-test --username admin@example.com --password Passw0rd! --user-pool-id us-east-1_XDmQStqsb --app-client-id 40spi4kh4ek39fv8mclnc28af6 --cognito-region us-east-1 --identity-pool-id us-east-1:fe5c4770-bd3a-4cb9-9b6b-95764356818d --invoke-url https://eqhnagz5qj.execute-api.us-east-1.amazonaws.com --api-gateway-region us-east-1 --path-template /notes --method POST --body "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"
+//body: "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"
+//"{\"source\":\"tok_visa\",\"storage\":21}"
+//   npx aws-api-gateway-cli-test --username admin@example.com --password Passw0rd! --user-pool-id us-east-1_XDmQStqsb --app-client-id 40spi4kh4ek39fv8mclnc28af6 --cognito-region us-east-1 --identity-pool-id us-east-1:fe5c4770-bd3a-4cb9-9b6b-95764356818d --invoke-url https://eqhnagz5qj.execute-api.us-east-1.amazonaws.com --api-gateway-region us-east-1 --path-template /billing --method POST --body "{\"source\":\"tok_visa\",\"storage\":21}"
